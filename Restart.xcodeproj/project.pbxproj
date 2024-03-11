@@ -13,6 +13,8 @@
 		5E6F93DF2B9F9AC000075518 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6F93DE2B9F9AC000075518 /* Preview Assets.xcassets */; };
 		5E6F93E92B9F9BD200075518 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93E82B9F9BD200075518 /* OnboardingView.swift */; };
 		5E6F93EB2B9F9BE500075518 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93EA2B9F9BE500075518 /* HomeView.swift */; };
+		5E6F93F02B9F9D5E00075518 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E6F93EE2B9F9D5D00075518 /* chimeup.mp3 */; };
+		5E6F93F12B9F9D5E00075518 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E6F93EF2B9F9D5E00075518 /* success.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		5E6F93DE2B9F9AC000075518 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E6F93E82B9F9BD200075518 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		5E6F93EA2B9F9BE500075518 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5E6F93EE2B9F9D5D00075518 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		5E6F93EF2B9F9D5E00075518 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		5E6F93E62B9F9B8700075518 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E6F93F22B9F9D6700075518 /* Sounds */,
 				5E6F93DB2B9F9AC000075518 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -95,6 +100,15 @@
 				5E6F93EA2B9F9BE500075518 /* HomeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5E6F93F22B9F9D6700075518 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F93EE2B9F9D5D00075518 /* chimeup.mp3 */,
+				5E6F93EF2B9F9D5E00075518 /* success.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6F93F12B9F9D5E00075518 /* success.m4a in Resources */,
+				5E6F93F02B9F9D5E00075518 /* chimeup.mp3 in Resources */,
 				5E6F93DF2B9F9AC000075518 /* Preview Assets.xcassets in Resources */,
 				5E6F93DC2B9F9AC000075518 /* Assets.xcassets in Resources */,
 			);
