@@ -51,9 +51,8 @@
 		5E6F93D62B9F9AB800075518 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
-				5E6F93D72B9F9AB800075518 /* RestartApp.swift */,
-				5E6F93D92B9F9AB800075518 /* ContentView.swift */,
-				5E6F93DB2B9F9AC000075518 /* Assets.xcassets */,
+				5E6F93E52B9F9B7C00075518 /* IndexView */,
+				5E6F93E62B9F9B8700075518 /* Resources */,
 				5E6F93DD2B9F9AC000075518 /* Preview Content */,
 			);
 			path = Restart;
@@ -65,6 +64,23 @@
 				5E6F93DE2B9F9AC000075518 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E6F93E52B9F9B7C00075518 /* IndexView */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F93D72B9F9AB800075518 /* RestartApp.swift */,
+				5E6F93D92B9F9AB800075518 /* ContentView.swift */,
+			);
+			path = IndexView;
+			sourceTree = "<group>";
+		};
+		5E6F93E62B9F9B8700075518 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F93DB2B9F9AC000075518 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
