@@ -9,6 +9,9 @@ import SwiftUI
 
 struct OnboardingView: View {
     
+    // MARK: - PROPERTIES
+    @AppStorage("onboarding") var isOnboardingViewActive = true
+    
     // MARK: - BODY VIEW
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
