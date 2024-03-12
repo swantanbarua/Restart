@@ -15,6 +15,7 @@
 		5E6F93EB2B9F9BE500075518 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93EA2B9F9BE500075518 /* HomeView.swift */; };
 		5E6F93F02B9F9D5E00075518 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E6F93EE2B9F9D5D00075518 /* chimeup.mp3 */; };
 		5E6F93F12B9F9D5E00075518 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E6F93EF2B9F9D5E00075518 /* success.m4a */; };
+		5E6F93F72BA02A8B00075518 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F93F62BA02A8B00075518 /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5E6F93EE2B9F9D5D00075518 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		5E6F93EF2B9F9D5E00075518 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		5E6F93F42B9F9F2000075518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E6F93F62BA02A8B00075518 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +119,17 @@
 		5E6F93F32B9F9EB900075518 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5E6F93F52BA02A6600075518 /* Extensions */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5E6F93F52BA02A6600075518 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F93F62BA02A8B00075518 /* ImageExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				5E6F93E92B9F9BD200075518 /* OnboardingView.swift in Sources */,
 				5E6F93EB2B9F9BE500075518 /* HomeView.swift in Sources */,
 				5E6F93DA2B9F9AB800075518 /* ContentView.swift in Sources */,
+				5E6F93F72BA02A8B00075518 /* ImageExtension.swift in Sources */,
 				5E6F93D82B9F9AB800075518 /* RestartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
